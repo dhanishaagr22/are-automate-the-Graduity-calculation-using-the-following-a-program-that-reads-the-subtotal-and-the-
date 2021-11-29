@@ -1,0 +1,6 @@
+sub_total = int(input('Enter Subtotal:'))
+rate = int(input('Enter Rate:'))
+gratuity=sub_total * (rate/100)
+total=sub_total+gratuity
+print("Gratuity:",gratuity)
+print("Total:",total)
